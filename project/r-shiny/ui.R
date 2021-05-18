@@ -39,17 +39,17 @@
           (tags$div(class="col s12 m8",
             (tags$div(class="card card-background",
               (tags$div(class="card-content",
-                (tags$p(class="mb-1", (tags$b("The outputs of the model are:")))),
-                (tags$p("The traffic intensity is: ", (tags$span(id="traffic-intensity")))),
-                (tags$p("The server use is: ", (tags$span(id="server-use")))),
-                (tags$p("The mean number of clients in the system is: ", (tags$span(id="mean-number-clients-system")))),
-                (tags$p("The mean number of clients in the queue is: ", (tags$span(id="mean-number-clients-queue")))),
-                (tags$p("The mean number of clients in the server is: ", (tags$span(id="mean-number-clients-server")))),
-                (tags$p("The mean time spend in the system is: ", (tags$span(id="mean-time-spend-system")))),
-                (tags$p("The mean time spend in the queue is: ", (tags$span(id="mean-time-spend-queue")))),
-                (tags$p("The mean time spend in the server is: ", (tags$span(id="mean-time-spend-server")))),
-                (tags$p("The mean time spend in the queue when there is queue is: ", (tags$span(id="mean-time-spend-queue-where-queue")))),
-                (tags$p("The throughput is: ", (tags$span(id="throughput"))))
+                (tags$p(class="mb-1", (tags$b("Los resultados del modelo son:")))),
+                (tags$p("La intensidad del tráfico: L -LQ = ", (tags$span(id="traffic-intensity")))),
+                (tags$p("El uso del servidor es: RO = ", (tags$span(id="server-use")))),
+                (tags$p("El número promedio de clientes en el sistema es: L = ", (tags$span(id="mean-number-clients-system")))),
+                (tags$p("El número promedio de clientes en la cola es: LQ = ", (tags$span(id="mean-number-clients-queue")))),
+                (tags$p("El número promedio de clientes en el servidor es: L - LQ  = ", (tags$span(id="mean-number-clients-server")))),
+                (tags$p("El tiempo promedio de permanencia en el sistema es: W = ", (tags$span(id="mean-time-spend-system")))),
+                (tags$p("El tiempo promedio de permanencia en la cola es: WQ = ", (tags$span(id="mean-time-spend-queue")))),
+                (tags$p("El tiempo promedio de permanencia en el servidor es: W -Q = ", (tags$span(id="mean-time-spend-server")))),
+                (tags$p("El tiempo promedio de permanencia en la cola cuando hay cola es: WQQ =", (tags$span(id="mean-time-spend-queue-where-queue")))),
+                (tags$p("El rendimiento es: ", (tags$span(id="throughput"))))
               ))))))),
         # Close of the row that contains the chart and report.
           # Row that will contain a button.

@@ -1,6 +1,6 @@
 # MMCKM-chart-and-detailed-report-with-r-shiny
 
-System that generates a chart based on a steady state probabilities and a detailed report of a MMCKM Queueing model using R for the backend and shiny as framework, in addition to ChartJS for data visualization and Queueing (R package) to solve the MM1K queueing model.
+System that generates a chart based on a steady state probabilities and a detailed report of a MMCKM Queueing model using R for the backend and shiny as framework, in addition to ChartJS for data visualization and Queueing (R package) to solve the MMCKM queueing model.
 
 ### Prerequisites
 
